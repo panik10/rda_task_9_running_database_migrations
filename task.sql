@@ -51,6 +51,6 @@ CREATE TABLE Users (
 
 --changeset pavlo.nikolaiev:6 labels:0.0.3
 CREATE INDEX idx_useremail ON Users (
-    Email VARCHAR(100)
+    Email
 );
 --rollback DROP INDEX idx_useremail;
